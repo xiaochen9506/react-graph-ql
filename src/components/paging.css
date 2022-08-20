@@ -1,0 +1,26 @@
+.paging {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pre-page, .next-page {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pre-page svg, .next-page svg {
+  fill: #fff;
+}
+
+.pre-page svg {
+  transform: rotate(180deg)
+}
+
+.disabled svg {
+  fill: #999;
+}

@@ -1,0 +1,39 @@
+.next {
+  padding: 20px;
+}
+
+.next .time {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.next .time-item {
+  flex: 1;
+  text-align: center;
+}
+
+.next .time-item .time-value {
+  font-size: 128px;
+}
+
+.next .time-item .time-label {
+  font-size: 32px;
+}
+
+.next .next-content {
+  text-align: center;
+}
+
+.next-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.next-detail {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 0 20px;
+}
+

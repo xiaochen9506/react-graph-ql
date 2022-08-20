@@ -1,0 +1,47 @@
+.body {
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url(https://www.spacexstats.xyz/static/aeb792432ecc5ca0d399e73243ea6e89/96ec1/asds.webp);
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 100;
+  text-shadow: rgb(0 0 0.85) 1px 1px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 60px;
+}
+
+.container .content {
+  background: rgba(24, 28, 31, 0.8);
+  color: #fff;
+}
+
+.tab {
+  display: flex;
+}
+
+.tab .tab-item {
+  position: relative;
+  display: table;
+  padding: 8px 10px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab .tab-item.active {
+  border-bottom: 2px solid rgb(236, 201, 106);
+}
